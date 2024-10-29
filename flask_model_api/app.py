@@ -4,7 +4,7 @@ import numpy as np
 import pickle
 
 # Load the random forest model
-with open('random_forest_IrisModel.pickle', 'rb') as f:
+with open('model.pkl', 'rb') as f:
     loaded_model = pickle.load(f)
 
 # Create the Flask application
